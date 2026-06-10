@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: wayang
+      POSTGRES_PASSWORD: wayang_secure_2026
+      POSTGRES_DB: wayang_lingua
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql://wayang:wayang_secure_2026@postgres:5432/wayang_lingua
+      JWT_SECRET: change_this_secret
+      PORT: 4000
+    depends_on: [postgres]
+    ports: ["4000:4000"]
+  frontend:
+    build: ./frontend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:4000/api
+    depends_on: [backend]
+    ports: ["3000:3000"]
+volumes: { pgdata: {} }
