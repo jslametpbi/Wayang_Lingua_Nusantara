@@ -1,0 +1,12 @@
+Quality checks performed before packaging:
+- index.html exists at repository root.
+- styles.css exists.
+- app.js exists.
+- assets folder exists with logo, dark 6D reference, hero stage, tutor images.
+- node --check app.js passed.
+- All app actions are attached through JavaScript event listeners: login, register, admin PIN, sidebar, Chat, Forum, Help Desk, Logout, material open, skill tabs, AI tutor selection, AI respond/listen/stop/clear/save, room create/edit/join, material builder, assessment builder, reports export, certificate generation, profile photo upload.
+- Service worker unregister/cache clearing included to avoid stale GitHub Pages versions.
+
+Additional automated checks:
+- Static handler check passed for required controls: admin/login/register, sidebar, Chat, Forum, Help Desk, AI respond/listen/stop/clear/save, room save/join/edit, material builder, assessment builder, profile photo, reports export.
+- Browser automation was attempted with local HTTP and file URLs but the sandbox blocked navigation with ERR_BLOCKED_BY_ADMINISTRATOR. The package is therefore checked through syntax/static structure in this environment.
