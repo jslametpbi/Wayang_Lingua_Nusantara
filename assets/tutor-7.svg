@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs><radialGradient id="g" cx="50%" cy="35%"><stop offset="0" stop-color="#fff0b8"/><stop offset=".45" stop-color="#c9942d"/><stop offset="1" stop-color="#07111f"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="600" height="600" rx="44" fill="#06101d"/><circle cx="300" cy="300" r="250" fill="url(#g)" opacity=".22"/>
+<path d="M300 76 C360 114 390 166 382 238 C420 270 436 338 406 414 C370 506 230 506 194 414 C164 338 180 270 218 238 C210 166 240 114 300 76Z" fill="none" stroke="#c9942d" stroke-width="12" filter="url(#glow)"/>
+<path d="M260 220 C210 260 196 338 238 394 M340 220 C390 260 404 338 362 394" stroke="#f6e8b1" stroke-width="10" fill="none" opacity=".82"/>
+<path d="M210 430 C270 392 330 392 390 430" stroke="#c9942d" stroke-width="14" fill="none"/>
+<path d="M165 180 C230 130 370 130 435 180" stroke="#f6e8b1" stroke-width="8" fill="none" opacity=".55"/>
+<text x="300" y="530" font-size="56" text-anchor="middle" fill="#fff6d7" font-family="Georgia,serif" font-weight="700">Srikandi</text>
+</svg>
