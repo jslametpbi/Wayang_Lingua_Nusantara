@@ -1,0 +1,25 @@
+Wayang Lingua Nusantara V15 Test Report
+
+Static checks completed:
+- node --check app.js: PASSED
+- Required files present: index.html, styles.css, app.js, manifest.json, assets: PASSED
+- Admin PIN implemented: JS2026
+- GitHub Pages structure: PASSED
+- Service worker unregister/cache reset included: PASSED
+
+Implemented workflows:
+1. Protected one-screen landing: login, register, admin access.
+2. Role-based shell: Student/Lecturer/Admin identity, editable profile/photo.
+3. Sidebar: Dashboard, Materials, AI Tutors, Online Room, Material Builder, Users, Assessment, Reports, Certificate, Admin Console, Profile.
+4. Top actions: Chat, Forum, Help Desk, Logout.
+5. LMS: 16 meetings with listening, speaking, reading, writing, vocabulary, quiz, rubric, room agenda, and portfolio evidence.
+6. AI Tutor Platform: 10 tutors, visual identity changes per tutor, write/respond/listen/stop/clear/save.
+7. Virtual Classroom: create room, update room, join room, open weekly rooms, chat, notes, breakout rooms, attendance, screen-share panel.
+8. Material Builder: title, level, type, indicators, content, file upload field, save/edit/delete.
+9. Assessment Builder: title, type, indicators, prompt/rubric/key, file upload field, save/edit/delete.
+10. Reports: table, visual bar chart, JSON/CSV export, print, research passport modal.
+11. Certificate Studio: preview, generated certificate, verification modal, QR-style verification block, print.
+
+Limitations:
+- This is a static GitHub Pages application. Real server-side accounts, real video conferencing, real QR database verification, and real generative AI API require a backend service.
+- Local browser storage is used for demo-free persistence on the same browser.
