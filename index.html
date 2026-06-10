@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <title>Wayang Lingua Nusantara</title>
+  <meta name="description" content="Protected Wayang-based EFL learning app with 16 complete meetings, AI tutors, online rooms, dashboards, assessments, and reports." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css?v=6.0.0" />
+</head>
+<body>
+  <div id="app" aria-live="polite"></div>
+  <div id="modalRoot" class="modal-root" aria-live="polite"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(regs){ regs.forEach(function(r){ r.unregister(); }); });
+    }
+  </script>
+  <script src="data.js?v=6.0.0"></script>
+  <script src="app.js?v=6.0.0"></script>
+</body>
+</html>

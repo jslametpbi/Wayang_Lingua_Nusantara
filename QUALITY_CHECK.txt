@@ -1,0 +1,11 @@
+QUALITY CHECK - V6 EXECUTIVE WORKING
+- Protected landing page: checked.
+- Register/login/admin PIN flow: checked via Playwright automation.
+- Student/Lecturer/Admin role dashboards: implemented separately.
+- 16-week materials: generated and integrated in app data.
+- Lesson tabs: overview, listen, read, speak, write, quiz, assessment, room.
+- AI tutors: 10 Wayang character mentors active.
+- Online rooms: 16 default rooms plus create/edit, open join, breakout rooms, chat, attendance, notes, screen-share preview.
+- Profile edit: name, email, level, institution, program, bio, photo upload.
+- Reports: role-based JSON/CSV/print.
+- Previous service worker cache: unregister code included.

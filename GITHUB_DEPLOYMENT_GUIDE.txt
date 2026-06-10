@@ -1,0 +1,16 @@
+WAYANG LINGUA NUSANTARA - GITHUB DEPLOYMENT
+
+1. Extract the ZIP.
+2. Open the extracted folder.
+3. Upload the CONTENTS of the folder to your GitHub repository, not the folder itself.
+4. Make sure index.html is visible in the repository root.
+5. Go to Settings > Pages.
+6. Source: Deploy from a branch.
+7. Branch: main. Folder: /root.
+8. Save and wait for deployment.
+9. Open the GitHub Pages link in Incognito first.
+
+Admin access:
+PIN: JS2026
+
+If an old page still appears, press Command + Shift + R on Mac or Ctrl + F5 on Windows. This version also unregisters previous service workers to prevent old cached app files.
