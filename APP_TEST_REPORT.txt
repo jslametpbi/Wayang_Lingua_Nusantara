@@ -1,0 +1,49 @@
+Wayang Lingua Nusantara V13 PRO - Build and Static Test Report
+
+Build target: GitHub Pages static app
+Admin PIN: JS2026
+Copyright: Dr. Joko Slamet
+
+Files included:
+- index.html
+- styles.css
+- app.js
+- manifest.json
+- README.md
+- assets/logo-wide.png
+- assets/logo-mark.png
+- assets/features-dark.png
+- assets/stage-arch.png
+- assets/dark-ui-panel.png
+- assets/stage-atmosphere.png
+- assets/concept-light.png
+- assets/light-hero.png
+- assets/mentor-guides.png
+- assets/cert-ref.png
+
+Implemented and checked by static inspection:
+1. Protected one-screen landing with Login, Register, Admin tabs.
+2. Enter key works for the active login/register/admin form.
+3. Admin PIN JS2026 opens Admin role dashboard.
+4. Sidebar navigation includes Dashboard, Materials, AI Tutors, Online Room, Material Builder, Users, Assessment, Reports, Certificate, Admin Console, Profile.
+5. Admin Console is placed after Certificate and before Profile.
+6. Top-right Chat, Forum, Help Desk, Logout buttons have JS handlers.
+7. Materials contain 16 complete meetings.
+8. Each meeting includes objectives, listening, speaking, reading, writing, vocabulary, quiz, rubric, room agenda, and portfolio evidence.
+9. AI Tutor Studio contains 10 tutors and changes visual identity by selected tutor.
+10. AI Tutor canvas includes Get Real Response, Listen, Stop, Clear, Save.
+11. Online Room Center includes create/edit/join/chat/breakout list/attendance/share-screen panel.
+12. Material Builder includes create/save/upload field and saved-material list/delete.
+13. Assessment Builder includes title, skill, prompt/rubric/answer key field, upload field, save/list/delete, and default integrated indicators.
+14. Reports include role-based report, chart, JSON export, CSV export, and print.
+15. Certificate Studio includes recipient, course, score, CEFR level, verification ID, QR-style mark, signature area, print.
+16. Profile includes editable identity, email, program, CEFR level, bio, and photo upload.
+17. Cache conflict minimized by unregistering existing service workers and versioning assets.
+
+Checks run:
+- node --check app.js: PASSED
+- Required file existence check: PASSED
+- Required handler/static string check: PASSED
+
+Browser automation note:
+Chromium exists in the sandbox, but page navigation to local files and localhost is blocked by the sandbox policy with ERR_BLOCKED_BY_ADMINISTRATOR. Therefore full browser automation could not be completed in this environment. The app was built as a browser-executable static app and passed JavaScript syntax and structural checks.
