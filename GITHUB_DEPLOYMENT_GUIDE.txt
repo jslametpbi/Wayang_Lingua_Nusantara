@@ -1,0 +1,32 @@
+WAYANG LINGUA NUSANTARA - GITHUB DEPLOYMENT
+
+1. Extract this ZIP.
+2. Open the extracted folder.
+3. Upload the CONTENTS of the folder to your GitHub repository root:
+   index.html
+   styles.css
+   data.js
+   app.js
+   manifest.json
+   sw.js
+   assets/
+   materials/
+   README.md
+4. Go to GitHub repository Settings > Pages.
+5. Source: Deploy from a branch.
+6. Branch: main. Folder: /root.
+7. Save.
+8. Wait 1-3 minutes.
+9. Open: https://YOUR-USERNAME.github.io/REPOSITORY-NAME/
+
+ADMIN ACCESS:
+Admin PIN: JS2026
+
+IMPORTANT:
+If the old version still appears, this is browser/GitHub cache.
+Use hard refresh:
+- Mac: Command + Shift + R
+- Windows: Ctrl + F5
+Or clear site data / open in incognito.
+
+Copyright © Dr. Joko Slamet
