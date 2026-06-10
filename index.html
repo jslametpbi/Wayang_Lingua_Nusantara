@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wayang Lingua Nusantara</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="auth" class="auth-shell">
+  <div class="auth-orbit"></div><div class="auth-particles"></div>
+  <section class="auth-card hero-card">
+    <img src="assets/logo_wide.png" class="brand-wide" alt="Wayang Lingua Nusantara">
+    <h1>Wayang Lingua Nusantara</h1>
+    <p class="lead">AI-powered Wayang storytelling for English skills, intercultural communication, classroom assessment, and research-ready learning evidence.</p>
+    <div class="hero-metrics"><span><b>16</b> meetings</span><span><b>10</b> AI tutors</span><span><b>4</b> skills</span><span><b>∞</b> reports</span></div>
+    <div class="stage-live"><img src="assets/stage_scene.png" alt="Wayang shadow theatre"><span></span></div>
+    <small>Copyright © Dr. Joko Slamet</small>
+  </section>
+  <section class="auth-card login-panel">
+    <div class="tabs"><button data-tab="login" class="active">Login</button><button data-tab="register">Register</button><button data-tab="admin">Admin</button></div>
+    <form id="loginForm" class="auth-form active">
+      <h2>Secure Login</h2><input id="loginEmail" type="email" placeholder="Email" autocomplete="username" required>
+      <input id="loginPass" type="password" placeholder="Password" autocomplete="current-password" required>
+      <button class="primary" type="submit">Enter Workspace</button>
+    </form>
+    <form id="registerForm" class="auth-form">
+      <h2>Create Account</h2><input id="regName" placeholder="Full name" required><input id="regEmail" type="email" placeholder="Email" required>
+      <select id="regRole"><option value="student">Student</option><option value="lecturer">Lecturer</option></select>
+      <input id="regInst" placeholder="Institution / program"><input id="regPass" type="password" placeholder="Password" required>
+      <button class="primary" type="submit">Create & Enter</button>
+    </form>
+    <form id="adminForm" class="auth-form">
+      <h2>Administrator</h2><input id="adminPin" type="password" placeholder="Admin PIN" required>
+      <button class="primary" type="submit">Open Admin Console</button>
+    </form>
+    <p class="hint">Press Enter inside any field to continue.</p>
+  </section>
+</div>
+<div id="app" class="app hidden">
+  <aside class="sidebar">
+    <div class="brand-mini"><img src="assets/logo_wide.png"><button id="collapseSide">☰</button></div>
+    <div class="user-chip"><img id="sidePhoto" src="assets/logo_mark.png"><div><b id="sideName">User</b><span id="sideRole">Role</span><small id="sideLevel">B1</small></div></div>
+    <nav id="nav"></nav><footer>Copyright © Dr. Joko Slamet</footer>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div><h2 id="pageTitle">Dashboard</h2><p id="pageSub">Interactive Wayang-EFL workspace</p></div><div class="quick"><button data-modal="chat">Chat</button><button data-modal="forum">Forum</button><button data-modal="help">Help Desk</button><button id="logout">Logout</button></div></header>
+    <section id="view" class="view"></section>
+  </main>
+</div>
+<div id="modal" class="modal hidden"><div class="modal-card"><button id="closeModal" class="x">×</button><div id="modalBody"></div></div></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+1. Unzip this package.
+2. Open the extracted folder.
+3. Upload the root files to GitHub: index.html, styles.css, app.js, manifest.json, sw.js, assets, README.md.
+4. Go to GitHub repository Settings > Pages.
+5. Select Deploy from branch > main > /root > Save.
+6. Open the GitHub Pages URL in Incognito to avoid old cache.
+7. Admin PIN: JS2026.
