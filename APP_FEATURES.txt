@@ -1,0 +1,25 @@
+WAYANG LINGUA NUSANTARA FEATURES
+
+1. Student Register/Login
+2. Lecturer Register/Login
+3. Admin Login with PIN JS2026
+4. Original 5D Wayang visual identity from provided design images
+5. Dark-gold exclusive interface
+6. Wayang World character library
+7. 16-week CEFR EFL curriculum
+8. Listening narration
+9. Reading notes
+10. Speaking transcript practice
+11. Writing studio
+12. Local AI-style feedback
+13. 5 Wayang mentors: Semar, Gareng, Petruk, Bagong, Dalang AI
+14. Performance portfolio
+15. Online Room integration using meeting links
+16. Teacher dashboard
+17. Class and user management
+18. Admin console
+19. Research analytics
+20. CSV/JSON export
+21. Printable certificate
+22. PWA-ready files
+23. Copyright © Dr. Joko Slamet

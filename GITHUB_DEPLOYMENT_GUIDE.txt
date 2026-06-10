@@ -1,0 +1,59 @@
+WAYANG LINGUA NUSANTARA - GITHUB DEPLOYMENT GUIDE
+Copyright © Dr. Joko Slamet
+
+ADMIN LOGIN:
+PIN: JS2026
+
+STEP 1 - EXTRACT ZIP
+Extract this ZIP file on your computer.
+
+STEP 2 - CREATE GITHUB REPOSITORY
+1. Login to GitHub.
+2. Click + at the top right.
+3. Choose New repository.
+4. Repository name recommendation: Wayang_Lingua_Nusantara
+5. Choose Public.
+6. Do not add README because this package already includes README.md.
+7. Click Create repository.
+
+STEP 3 - UPLOAD FILES
+Upload the CONTENTS of the extracted folder, not the folder itself.
+Make sure index.html is visible directly in the root of the repository.
+
+Upload:
+- index.html
+- styles.css
+- app.js
+- manifest.json
+- sw.js
+- assets/
+- README.md
+- GITHUB_DEPLOYMENT_GUIDE.txt
+
+STEP 4 - ACTIVATE GITHUB PAGES
+1. Open repository Settings.
+2. Click Pages.
+3. Source: Deploy from a branch.
+4. Branch: main.
+5. Folder: /root.
+6. Click Save.
+
+STEP 5 - OPEN APP
+The app URL will usually be:
+https://YOUR-GITHUB-USERNAME.github.io/Wayang_Lingua_Nusantara/
+
+STEP 6 - TEST FEATURES
+- Register as student.
+- Register as lecturer.
+- Login using the created account.
+- Admin login with PIN JS2026.
+- Open CEFR modules.
+- Test listening narration.
+- Test writing feedback.
+- Test speaking transcript.
+- Create Online Room.
+- Export Research Passport CSV/JSON.
+
+IMPORTANT
+This is a static GitHub Pages version. Data is stored locally in the browser.
+For formal institutional use, connect it to a secure backend database.

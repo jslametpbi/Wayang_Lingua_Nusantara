@@ -1,0 +1,13 @@
+{
+  "name": "Wayang Lingua Nusantara",
+  "short_name": "Wayang Lingua",
+  "description": "AI-powered Wayang storytelling app for EFL skills and intercultural communication.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d132b",
+  "theme_color": "#d4af37",
+  "icons": [
+    {"src":"assets/logo-mark.png","sizes":"192x192","type":"image/png"},
+    {"src":"assets/logo-mark.png","sizes":"512x512","type":"image/png"}
+  ]
+}
