@@ -1,0 +1,11 @@
+Checked before packaging:
+1. Root files exist: index.html, styles.css, app.js, data.js, manifest.json, sw.js.
+2. Required image assets exist in assets/.
+3. JavaScript syntax passed node --check for app.js and data.js.
+4. App includes protected login/register/admin screen.
+5. Admin PIN JS2026 implemented.
+6. Role-based menus implemented for student, lecturer, admin.
+7. 16 weekly meetings generated in data.js.
+8. Online rooms generated for all meetings.
+9. AI tutors list includes Semar, Gareng, Petruk, Bagong, Dalang AI, Arjuna, Srikandi, Bima, Gatotkaca, Kresna.
+10. Service worker clears old caches.
